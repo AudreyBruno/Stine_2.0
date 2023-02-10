@@ -1,0 +1,1203 @@
+object frmSoja: TfrmSoja
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 550
+  ClientWidth = 350
+  Fill.Kind = Solid
+  StyleBook = frmPrincipal.StyleBook
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object layoutCabecalho: TLayout
+    Align = Top
+    Size.Width = 350.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object lblTitle: TLabel
+      Align = Contents
+      StyledSettings = [FontColor]
+      Size.Width = 350.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 25.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Center
+      Text = 'SOJA'
+      TabOrder = 0
+    end
+    object imgVoltar: TImage
+      MultiResBitmap.Height = 128
+      MultiResBitmap.Width = 128
+      MultiResBitmap = <
+        item
+          Width = 128
+          Height = 128
+          PNG = {
+            89504E470D0A1A0A0000000D4948445200000080000000800806000000C33E61
+            CB000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            176149444154785EED9DF96F5DC775C7CF2C777BFBE3E3E32651A4B868A36427
+            F122B7701C070D12B44E9BA555DA1F5A346D81E48724407FEE2FB6FE80FE5420
+            408DFE6027295CD845F3438A2645D1C62A527891E5D8B2458994282EE24EBEFD
+            BEBBCF4CCF659E02354DA4A7346D1FC9FB01082E77E691BCE7CC39DF3333771E
+            2424242424242424242424242424242424242424242424242424242424242424
+            242424242424242424242424242424EC5B48E77342973CFF3CD0D999BDFBC68E
+            1E05E6FBC0DEDA9960B7C2D314200F53DA9C7C746449F26A450C4F40343B0BE2
+            CC3550172F82C23EF1474FC13A9F13BA64F42F20552E424EE730E4FA3025053C
+            5217FD8FD6A3DCE34E048F677963BA00BB635CF7FBDC36E88C810AA6818C3F07
+            62F6B5DE7300F4DA848721E583E53B509204C608858F29423E25247C4129F843
+            50E4CBA0E80550F23902F42929618A69509401A4B06B4F0EB62402DC0F05E479
+            1C2427FF12F8E9DF05EBEC1F40E69A777262D93B767A2B2C9FABFBD9B32D619D
+            AE04A5E3CD303F164A3664D0304D416602A59308A830942F9406612E03F6E597
+            21E8BC72CF9038C07DB830032C7A0A98B10D5644A0A83128CFD9273EB615F63F
+            5D0D724F3645EE7823280ED7A342DE91660A2DCD2342A913A5CC406A9413C98A
+            86CD8952B67260E7CA2BE0745EBA674852C02F861427F0FEAC83B6134026545A
+            D915FAB18068E79CC87AA6210ACF6E07E5475783E1D16A54E8F3956108C2981D
+            E5B21BE1F0E076583AEE4A6B4648FA68186947BD14189DD7ED299208F0DFC101
+            8B2AFF5960AD26944187A3EBC19193F3CEC447E6DA534F36A2DC590CEFA30A68
+            B6D3FEE742A89491A0B425736A272CDDDEF28ECC6DBEBAD9E85CEE191207F859
+            D0F8A8D6693B0D1A48388ACE305589FACE6DFA434FEE46A5A703A11D938A14D0
+            C2BCD3E3E7A214639E328D7A9063B5A030578DF21FFADF9DAF762EF70C490AE8
+            10D7F79FF821F00BAF413AD707FD24D447D783E1E965EFE8D9DDA8700E73FC69
+            34FE94207C40516676BADD1F89B5423C63D0C3773971809878D4CF001F0DC048
+            65A15F093829047D6AD7EF3B7FCB39FEE4863334D316561908E97AE2CC20AE57
+            362A95E9F4F2FA646AA9715C5B893A977A8AC40190E75F40C167023714DA4D41
+            99127A9210F99427F4F3553F7FBE1615CF049131D069DE1516F5BD1173A73293
+            B9BEF1486EAE7136FF7E4F3AC0A19E0ABEF02AB0A10CF0A685F67261847018DE
+            F1CB272A617E0695FE99CD7060A416E48E04CACC74BADC17464299668E97218E
+            5FD41B4B43E6EEDC98B9364B41BE4374B8FCE22761B7D3B46738D4112036BEAF
+            81091E14F04E4C10499F7094FEE4B657FEC8A23376AA1E6687220C0C9DE60F84
+            13218A5ADD99482F5546ADF53B79DE984521F01E2AED3BA818BD4EB39EE2D055
+            019D128F3FF2FBA0393A1404814121D9581B72E76C91FA68C5EB3BB91DF58F55
+            A3E2B0509A89E5DE03EF110311E924F0D3D4690D68D5F589F4EA52BF5E9F4D33
+            FF2A55703DE250191E84F6A56F82E874E9190E93039058EC6D5C015E09208309
+            398FA3720A7FF6D15099E7379C81B3ABC1C8D44E501A6C46D96CA8B4AE477E8A
+            B55B255EDB1DB476970B9A7D35CFEDCB1A093F10146E5B02B6A80ECEF23204BD
+            B81874781C008D1F8BBD150E7ACE843C8ABD92043887C2FEE950B18FAFF94353
+            2BEEC8D15A5428462AD683B46B7DD4C75BD5B1D4DAFAC9D4E2CD1C1ADFD4A27F
+            5720E720059BD50A34C72F43F8CDAFF79EF1630EBE0844C3C777FEABDF030BB2
+            905A6E8C94D6A2E1493BB0A6B29A7D26CBECB358AC4FAF7A43D6B6574A796075
+            352850F0853AF55B29E2B5FAF5E6C2A8B5363F6EADDF9052CE2A0AD702058DD4
+            12042F7E15C24E979EE4A0478078358F7C730768A11FF25E0403753F3771C71F
+            C1F2AEEF93CD3033D3149923D5289FB3A38CE14B9329D2DDC8D749E896F4C6C6
+            786A63B1A0D53FCC50FBDD0C75AE120D560D0E55B600C1F03A884B977A73E4DF
+            E520470082651E3DAA408FB2A0AD87C5518F1A635B41E9CCEDF6E8271A61F619
+            4978AED3B66BA85201A132B0587B174BBCB98FE46EDCD05970150279D553B030
+            D8075EEE9FC1BF781130C3F43E07D20162A5FFA5D780667548510BFAF1FBF207
+            ED53A7B6BCF24C3B4A9FB2853919287D52912EA774EFC122CE6A8A3B77F25A7B
+            B1C4ABF327524B7396E1AD1009ABE934ECB475885E7C0CA23DC9B90F3890F300
+            2FA063176B40750BEDA560985238E90AEBB17A947DA62E734F87601C5784E89D
+            E60F854183EDA3E6D60767AC9B6F8CE8DB6F30A2DEF41A30171B3FF76BE0EF27
+            E3C71C9C0880A3FE028EFA780DDF70A0E0FA50ACFAA523952077CA05E3D49A33
+            74BA1614CEB8601DE9F4B82FB10D2DE2452673420AD28DA4D60888D128F0DABB
+            13E6EABB27330BD7A584B580C26A2CF6E27CBF5FC2FEBD1C1807B83BAD2B6CD0
+            823CD6F7C0A63682D2895BEDB15395A878CA15A97220B5129678F75DC7BF0B55
+            520D9ADBCEB0B1ED98C4DFF4A47EAB25B2B752DC9DEBD76B7393DA9D55C78596
+            750C9AC38FA1F1F75C70FF8CFCBB1C0C07C05BFF8DEF838EF9DEF26C48BB5C7F
+            4C2AF6F866503E77C3397E62C31B3A21E1FEEBF777214A61152741A391183757
+            6AD3E985DA8051BFA940BD83F5C1E508737DC46075E25350DBAF46BF977DEF00
+            F1C83F83C3FD4E01FAB9803134F4F8827774A61E16661A51EE7825CC0FB4447A
+            5001EB4AEFA430E4E799ED1778C3ED331A0B837CE37651B3E7512D5DC79B755D
+            4550F318D4BEF369703A776F5F3BC0FE168138FE62E3EF6059CE4228610D7F3A
+            22EA1947A49FD808CB6737FCF27147A6FA704C77EDE806E6FD217DD33999B955
+            1D34366E9B3CB88221E1B25430EBE460B9DE828AFF69F03A237F5F1B3F665F46
+            8078E7CEC70CD0B6AA601A061435057DD53077C295D6E3BEE48F2FBBA343EBFE
+            E09023525DE57B0242EA10F81A155E49AF56C653AB1B93A9953590EA7DBCFC5E
+            04B084BF67F7C567A1D231FC81615F46809359D0ED061452168C10018F48453F
+            E909E3136B5EF9D1397B6AAC12F49542C1BA5ECCA1448A9C6ED747CDD5D51163
+            EBC314757F4488FA3E21F0366170DB0860175ABDB7A5FB57C17E8C00E4CF7E00
+            45C9614849186540CFA3603FBF110C4CDE684FF72FB9A3A54EBBEE4075A733DF
+            1F33D717CF66E76F97B4DA8F05A837098577BC00DC290B9C8B9FC4DAFE80B25F
+            1C803CFF43604B0019CD858C24304A34980C4336BD15954F36C3F429ACF107B7
+            8372A61615BBDABD136350BF95A66E3DCB9A3BFD66FDC698B976A3C0EAF38AC1
+            BC1FC202B7207076207CED4BBDB78EFFAB623FA480789F3E2C2D016712F21892
+            8F100E274090C780D05F6F85D999556774643D1829B445FAA1A6760DF0ED417D
+            7BF5447A797648DB7E0F05DF5B18593EC0D0BF9E1E0077CFF817F6DFE4CEC3D0
+            BB1100157EACB6BEFC3ADAA90EA6C38AB98ACC4D868A4F1AD43BADD3E82C46EF
+            538BEDD1CCAA3F926D8B8CF6938EF787482518130E53815B321B0BC78DB5EB27
+            B30BB34AC81B8AC3751BA0321482F757BF057EA7CB81A6371D008D1F2FE3C2EB
+            40570594640443F5A8701405DE2395A8788ED16854A7FEA0A644B916E68D5694
+            D10330BA5CC78F9C0CB357FAF4E64A96D9D7FBB4DAB5E3D6CA9C50B0CD01B623
+            031C4C35D1A5039CF7EFA5771DE07560551758DB807112C1899DB034F35EF3D4
+            539BC1E07921798960D18F0DE9DE541C41CDDEE5BFA2835F1B3636DF3D9B9FBF
+            92E38DF731BB7FA0A5C29B4616C4F0F7405C7C21FEEDF87148E84907F8C63F81
+            D1E65042C3F72F86C74E3682ECD9A6C89CA904C5A966989916444B779A760D87
+            689BB3701345DF7259AF7E38939ABB96E3CDDBC06079F43F60F3B019FE2EBD2A
+            020D1CDAC394C19976647E7423283FB1EE0F7ECC8ED2A392745FDFDF4B6CFC7E
+            5E7BE7586AFDDFCABCFA2605F17E6C7CB30ECDBDE35B0EA1F1637AD2016EC290
+            B1E997463683328EFCFCD91696798E484F84A09754178B3A9C04D2626E6891B6
+            AB53AFCA48B86ED0E066BF597BEFF1DC07EF4CA7176647F5F6E2A806DBE56B7B
+            133C87D2F8313D9902265FF9F868A4E039FCF2B976684DB4547A289066DF4FAE
+            3E9802ABC5FBF55C93FA15571A4B9836964C2DBC36A86D5D3B97BF7E5BE3D01C
+            2E431366203A082B7AFF137AD2018C6FFDDE9414E48FD12A5FC62ABC5F2AA629
+            4ABA52F9B12DC7AC3BF5496BB9D1AF576E63D478D30E536F2909AB2609368AF9
+            4AD59807F1D75F8108EBFD436BF8BBF4640AF03D2CF414D785E22941B8D9ADF1
+            EFC28888A77765867B615E6B3847321BB563FA462BC32B7B933B2F26C6FF29FB
+            6126F0E1C1A08EA12D8E6E8448204AE0D7BFD40EC0834F4F3A806162A54FA200
+            C55B9BA9C88B67EF3A97BA22024E7D69725B584643E6D36BDE7071C51FCEDA7A
+            C9520AF4AF5C01BEF78C60426F3E1832F4C5722AA7DB8359D6CE50AC0723D400
+            12587CD65E1710A044A950705A0D0BFC8E73C45AF68E0ED4A3828579058E6577
+            85B081FCEB2D887EF33BA02EBD805D50091E567AD2013EF127813E686D65CA5A
+            8585D2D0DAD22A844A2F762E3F904851DA8E325A3DCCA5EB516EC011A9094CF9
+            34A7B5DD23E6769B5308B10670D23B209E7D09A0D79FDEF9DFA4271DE0E9AFD9
+            2C2B1C2DADB7A34694655E646A92A0105420317263368FA7817F31182D489C06
+            B002D00470EB27277AA94829A29A6196C7AFC98C407924A4410EE4E5D77AFBF9
+            BDFF4D7AD3017E0F08267D4938B45B221569248C0C1A0AA1180F84965784FD12
+            924EA12E30B29EB0309228BDACD7A8417C15A5C0FB9D09685F7A1D9B1CC254D0
+            930EF0F67740FEF62AB89107F58CD50846B49D20C5BDA81AE6B26D952E8322F1
+            54312A588C0B7187BDB3B8EEAFE9302AA423A50D4692964DEAD23EB32E190B7D
+            FC79B339291BE72B403E3B8CE9E09039424F3A00BC00E4D971006B0DA025814A
+            09229086D70AF328E3A893D5EC5651AF8625ADC6F0AA8A50F061A8EFAEA24131
+            802FA96C91B5EA61418FA4A695F586A65C309AA7413EFB06C067BE868EF0F2C1
+            DE087297DE74001C81B13A7F7D1CD43FACA0A6B3A12D88D588377214B54663C0
+            D80A468C8A5EE4B54C2075D696691D456277FF8B243402CD6A87467FFC706896
+            3BE80035AE4029F422876720D8C456EFBF9CEC07E815F6B6847DF92530D83118
+            64110C490AA750D03D1A083EB3E04E0CDD7186879B229BF5A5CE03A577F50450
+            4C96B7D6868DED855173E39645FDD90CB3AFA7C059352CD88EB250A9DD06B9B7
+            25EC00CF1AF66604F8192E5E04F2F93F07A8C5B55C003ED600B16A775105B451
+            182A8BB80627210F95463D69752D1009D614A1D40C3B4A652260568EDB9994E6
+            F3504260B5A0D9F281CCCC82ECC5B37D7E55EC0B07888973328665EFDDBF85D6
+            B93F051BD55F933359CF32C7E8D76B790E22D59219BD11E5BB9C300240DD60A0
+            C3E45D69F5A7A893E9376AF914F5E3BD4635CC13DB3913E4B13C4407590FEC1B
+            07B897F3BF8B2A4E03C51844F134B154B48546B403C5438D08C6881442122681
+            3FF8FFC30A22DE50867DA42F746E8B0C0F24372CBD9D0F08A4DB14C8F92F018C
+            7F6EEF106971D02A847DE90099AFA0F17721B20C70511FB4D0805B82F2964503
+            56D0EA69D401CC9129ABDBA3DEB02C209802784B64AC08483AC3BD42516F0E60
+            5941B0D67442063E2616F1E329F01207E801963124CFFE3D4457BE05C1E4BBD0
+            06136A26F5C33C73F5ACD6D26D54704E686921C4C14061FCA6ECBE073DE3B548
+            6928200D9380342DE2650D12147CA547D8C937889082817A7405C238FAC40E18
+            FF0D9DDEFB9A7DE9003F0547E3CC05CCE53E289E02AA112508A1B61D5A3EE72A
+            6044602A600C4BC40C1AB9AB79028AE920523AAACBB426145729E6593AF1D328
+            03352E400913485F13A21FBF824214C569A7DBBE657F3B00122BF4D957414EBF
+            0361DA005B686A3BC3DCA0C46B5223211A3293B1457A403D60FDE02E91E4D411
+            968E65A5A153DF2AEAF5BE34470790E802147CBC61A124607F6E1ADC83B092B8
+            EF3DF82ECFFF10B81D80E151307D09A394B1D13B4E797AC11E3D5B0D8B675DF8
+            E58F88B198BFE54B6D11A3C2A241BCEBFD5A7D76C2585D390847C4ECFB087097
+            78EAB88221DA2D4394D1C18FA46A86C2B409957E4EB7FD787F4020F45C045A77
+            6703627520B036B0238B57C3BC5509FB0BD5303782698166795BF619B58862ED
+            E979D0F6FF15D467BF076A3F2E2B1F9808702FCF63B0DE7811181D87A2503085
+            A17BF2EDC6A34F2CB7879F74547A9A82D4E30F2C13B1DCA734366AA7EB0329B0
+            FABB63A9B5778E191B571913F345D39927A1D7CAE5C08D8F89C3ACA0F6D37EC3
+            031301EEE575B4C2B76F03F0786FA006124B45B71A162245319933D7E933EA5E
+            D9A8E2000E70946B3490DD4F1F6395205C6998CD309B1540CD3CAD9B0C224D08
+            10F63508BE7D15C8EC1974807D120D0EA4035CC4848CE210A6BE0851D90397E9
+            50535478FD46DD1ED4B7DC617D870E19BB69D4859A1DA6B57831A9D3F58148C5
+            4D5F99FD81647D16F7CC21BD62E84CA293295B32B05347404E68205098EE0B81
+            78201DE02EB1137C6606C46201C2C1A2A72C70428C007E4AF38541C3D0C32C10
+            4AA6A14E3018CA7C8115C0830E8BC6F8CE30C3E818E5354A24092537B0CAA091
+            A424CD5DAA1CBCA82078A20DF2B37F0D70E927EF1ADEB31C6807888937785C9B
+            01F577F3A022C0328E83431538524253522E4D12A4B3DCCD874A239E30388AC4
+            EEF48022580F32AD25D339A134238DD1A0A0D9062815820E0D5A83D0C63470E5
+            1F7B7BC2E8408AC05F086A826FDC04BDBD0425F4FCF80D231E27847CDC11C663
+            D75BD3C50567B4E8C894A11465B2CB73056306F5ED8DE3D69D95F1D49D9BE85C
+            6F5088DE3049B829B260B7D6C139730DD4DE03A8F15FD0631CF808F05FC09CFC
+            9B5F04E2A0190440C4318E4B1488426A0D57186D4E05FE4CAA78320823C1433C
+            852C3195706663011A62BFB4E6E6351A664808ACA841604F03197F0E7541F296
+            31FFFF5C7A096BF6158844005E80E94012A8A0176CEB5488A2DED030B46BAE48
+            591809BA9A308A4161C83D695A9E327316F30B255E1DD2A8C052139D8B403324
+            20268F839FBC69542F8051205EDF7FFB6F413CFD07F12304E0A286772DCD2769
+            EA2B4F1980C6A402F33B10BC027BA2EFBEF709AFC77B1235A9A8AEB340674466
+            02A5CB4832CFA0BE8F656818F8D0BAFC32049D2E3DC3E173807B18FB1C408183
+            F42D103C44B1C655DB97868FEA5E65B8BBF7885920B4141AB7AB3231DE5710EF
+            4A6A8B94164843702AA1C86D4AA8B2B13AD8B9F24AEF1D3679A81D20CEC97124
+            F8FC4B1034AE814B74A8E695E30F587555D22AAC11654D3BCA1642A959B180BC
+            EF9232123F90820EC45B51D6904AB11C77B4A256C7C8C0B643432EBDFF2D6875
+            9AF60C87DA01EE12CF1C7E771348C64733A30A40E38502F4562DCA0768F79081
+            0805A52014EFFA104A82E9231693CD28AB76C2D2E29677646EF3D5CD46E772CF
+            D075A9739089E7EEE37303FC3B1805386C4B0A37300DBCD5CFAA6F4FA516DF1E
+            4E6D5E4B3377076BFCAE55BC2F2C0B0DDFBFE81D3B72CB1E2F2C3847BB3AC7F0
+            FF9A24027488D3413C6973F92508A7AE80AB65855D045BF519CDD08F4CD51259
+            1E482C0D891471AC0772FFB38AD081248748122A5DCC1CEFA39BBDEF7F77BEDA
+            B9DC332411E067C12CFFEA0590E3F13C01851D097093737925CB9B3F1A3076FF
+            C5A2FE354644BDD3FA176210D71BD0ABD5C9D4CAC6A4B5D83C9E5DE9C9074D0E
+            D74CE0C3F23CD00B334078198AD4D38E8122633F6A3CF91B5B5EF953BE324F76
+            5AFD5CFAF5DDCA0973717D3ABBB4803AE2FB9A08FFE96F7E0B563B977B862405
+            DC8F4B7BDBCDE023F318F0990493087FCD1BA12168A141BC5681D9AD3EAD1669
+            349212837EFCAC6A9AB75B455EAB96F5EA525E6FDDE8D39B1F0288EBDC84952B
+            2F2765E0FEE322C017FE0C54358240B4C1B121ED9BD46FF41BF5FAB0B1150D5B
+            BB5AFC0C82230D43022725AD56399E5E5D2FF3DA7C96DB574DE65DC530BBA233
+            D8EDC589A024053C247FF42F50D222E8C7CAE118A13083E1FDEC8DF6C4D07C7B
+            227E732A63DCB8B3FE48E6C67A5673E71491D75043CC470A1A7E03EAAF7DA9F7
+            1C2011810F8955DC7B18A58A027109045C2154FD00B5C13F5045BE4D1479091D
+            E3EF09F01F80946FE3E8BAAD6B5043E3C7A1BF27DF742249010FC9678741AC15
+            C0733D68960760D3ABC1A213166EACA8C10F18CBBCA7B3CAB53ED2BC9953EE6A
+            E31854BCE5BDE5E0F09B5FEFED7D010909090909090909090909090909090909
+            090909090909090909090909090909090909090909090909090909090909FB0D
+            80FF042AB2F8958747013B0000000049454E44AE426082}
+          FileName = 'C:\Audrey\Projetos\Stine\Mobile\Img\voltar.png'
+        end>
+      Align = Left
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object btnInfo: TButton
+      Align = Right
+      StyledSettings = [Family, FontColor]
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 270.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 75.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'ButtonStyleGreen'
+      TabOrder = 1
+      Text = 'INFO'
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  object TabControlSoja: TTabControl
+    Align = Client
+    Size.Width = 350.000000000000000000
+    Size.Height = 500.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 1
+    TabPosition = None
+    Sizes = (
+      350s
+      500s
+      350s
+      500s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem1'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object Layout1: TLayout
+        Align = Top
+        Size.Width = 350.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        object btnFiltros: TButton
+          Align = Left
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 150.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'ButtonStyleGreen'
+          TabOrder = 2
+          Text = 'Fechar Filtro'
+          TextSettings.Font.Size = 18.000000000000000000
+        end
+        object btnScaner: TButton
+          Align = Right
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Position.X = 190.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 150.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'ButtonStyleGreen'
+          TabOrder = 1
+          Text = 'Scanner'
+          TextSettings.Font.Size = 18.000000000000000000
+        end
+      end
+      object Layout2: TLayout
+        Align = Top
+        Position.Y = 50.000000000000000000
+        Size.Width = 350.000000000000000000
+        Size.Height = 75.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 6
+        object Label2: TLabel
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Size.Width = 330.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 18.000000000000000000
+          Text = 'Local'
+          TabOrder = 0
+        end
+        object Rectangle1: TRectangle
+          Align = Client
+          Fill.Color = claWhite
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 340.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object ComboBox1: TComboBox
+            Align = Client
+            Margins.Left = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Size.Width = 330.000000000000000000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'ComboBoxStyleTransparente'
+            TabOrder = 0
+          end
+        end
+      end
+      object Layout3: TLayout
+        Align = Top
+        Position.Y = 125.000000000000000000
+        Size.Width = 350.000000000000000000
+        Size.Height = 75.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        object Label3: TLabel
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Size.Width = 330.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 18.000000000000000000
+          Text = 'Program Stage'
+          TabOrder = 0
+        end
+        object Rectangle2: TRectangle
+          Align = Client
+          Fill.Color = claWhite
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 340.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object ComboBox2: TComboBox
+            Align = Client
+            Margins.Left = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Size.Width = 330.000000000000000000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'ComboBoxStyleTransparente'
+            TabOrder = 0
+          end
+        end
+      end
+      object Layout4: TLayout
+        Align = Top
+        Position.Y = 200.000000000000000000
+        Size.Width = 350.000000000000000000
+        Size.Height = 75.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        object Label4: TLabel
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Size.Width = 330.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 18.000000000000000000
+          Text = 'Prefix'
+          TabOrder = 0
+        end
+        object Rectangle3: TRectangle
+          Align = Client
+          Fill.Color = claWhite
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 340.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object ComboBox3: TComboBox
+            Align = Client
+            Margins.Left = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Size.Width = 330.000000000000000000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'ComboBoxStyleTransparente'
+            TabOrder = 0
+          end
+        end
+      end
+      object Label5: TLabel
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 275.000000000000000000
+        Size.Width = 335.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        Text = 'Range'
+        TabOrder = 1
+        object Rectangle4: TRectangle
+          Align = Right
+          Fill.Color = claWhite
+          Position.X = 210.000000000000000000
+          Size.Width = 125.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object ComboBox4: TComboBox
+            Align = Client
+            Margins.Left = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Size.Width = 115.000000000000000000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'ComboBoxStyleTransparente'
+            TabOrder = 0
+          end
+        end
+      end
+      object Label6: TLabel
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 320.000000000000000000
+        Size.Width = 335.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        Text = 'Rep'
+        TabOrder = 0
+        object Rectangle5: TRectangle
+          Align = Right
+          Fill.Color = claWhite
+          Position.X = 210.000000000000000000
+          Size.Width = 125.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object ComboBox5: TComboBox
+            Align = Client
+            Margins.Left = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Size.Width = 115.000000000000000000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'ComboBoxStyleTransparente'
+            TabOrder = 0
+          end
+        end
+      end
+      object Rectangle6: TRectangle
+        Align = Top
+        Fill.Color = claWhite
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 365.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        XRadius = 10.000000000000000000
+        YRadius = 10.000000000000000000
+        object ComboBox6: TComboBox
+          Align = Client
+          Items.Strings = (
+            'Pendentes'
+            'Alterados'
+            'Todos')
+          ItemIndex = 0
+          Margins.Left = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Size.Width = 330.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'ComboBoxStyleTransparente'
+          TabOrder = 0
+        end
+      end
+      object Button2: TButton
+        Align = Top
+        StyledSettings = [Family, Style, FontColor]
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 415.000000000000000000
+        Size.Width = 330.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'ButtonStyleGreen'
+        TabOrder = 2
+        Text = 'Pesquisar'
+        TextSettings.Font.Size = 18.000000000000000000
+        OnClick = Button2Click
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem2'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object Layout5: TLayout
+        Align = Top
+        Size.Width = 350.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        object Button3: TButton
+          Align = Left
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 150.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'ButtonStyleGreen'
+          TabOrder = 2
+          Text = 'Abrir Filtro'
+          TextSettings.Font.Size = 18.000000000000000000
+          OnClick = Button3Click
+        end
+        object Button4: TButton
+          Align = Right
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Position.X = 190.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 150.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'ButtonStyleGreen'
+          TabOrder = 1
+          Text = 'Scanner'
+          TextSettings.Font.Size = 18.000000000000000000
+        end
+      end
+      object ListViewRegistros: TListView
+        ItemAppearanceClassName = 'TDynamicAppearance'
+        ItemEditAppearanceClassName = 'TDynamicAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        Align = Client
+        Margins.Top = 10.000000000000000000
+        Size.Width = 350.000000000000000000
+        Size.Height = 440.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        ItemAppearance.ItemHeight = 110
+        ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+          item
+            AppearanceObjectName = 'txtTitleId'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 18.000000000000000000
+            Appearance.Font.StyleExt = {00070000000000000004000000}
+            Appearance.TextAlign = Leading
+            Appearance.TextVertAlign = Leading
+            Appearance.TextColor = claGreen
+            Appearance.Width = 100.000000000000000000
+            Appearance.Height = 25.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'txtId'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 18.000000000000000000
+            Appearance.TextAlign = Leading
+            Appearance.TextVertAlign = Leading
+            Appearance.Width = 100.000000000000000000
+            Appearance.Height = 25.000000000000000000
+            Appearance.PlaceOffset.Y = 25.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'txtTitleLocal'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 18.000000000000000000
+            Appearance.Font.StyleExt = {00070000000000000004000000}
+            Appearance.TextAlign = Leading
+            Appearance.TextVertAlign = Leading
+            Appearance.TextColor = claGreen
+            Appearance.Width = 100.000000000000000000
+            Appearance.Height = 25.000000000000000000
+            Appearance.PlaceOffset.X = 100.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'txtLocal'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 18.000000000000000000
+            Appearance.TextAlign = Leading
+            Appearance.TextVertAlign = Leading
+            Appearance.Width = 100.000000000000000000
+            Appearance.Height = 25.000000000000000000
+            Appearance.PlaceOffset.X = 100.000000000000000000
+            Appearance.PlaceOffset.Y = 25.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'txtTitleStage'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 18.000000000000000000
+            Appearance.Font.StyleExt = {00070000000000000004000000}
+            Appearance.TextAlign = Leading
+            Appearance.TextVertAlign = Leading
+            Appearance.TextColor = claGreen
+            Appearance.Width = 125.000000000000000000
+            Appearance.Height = 25.000000000000000000
+            Appearance.PlaceOffset.X = 200.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'txtStage'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 18.000000000000000000
+            Appearance.TextAlign = Leading
+            Appearance.TextVertAlign = Leading
+            Appearance.Width = 125.000000000000000000
+            Appearance.Height = 25.000000000000000000
+            Appearance.PlaceOffset.X = 200.000000000000000000
+            Appearance.PlaceOffset.Y = 25.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'txtTitleRange'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 18.000000000000000000
+            Appearance.Font.StyleExt = {00070000000000000004000000}
+            Appearance.TextAlign = Leading
+            Appearance.TextVertAlign = Leading
+            Appearance.TextColor = claGreen
+            Appearance.Width = 100.000000000000000000
+            Appearance.Height = 25.000000000000000000
+            Appearance.PlaceOffset.Y = 55.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'txtRange'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 18.000000000000000000
+            Appearance.TextAlign = Leading
+            Appearance.TextVertAlign = Leading
+            Appearance.Width = 100.000000000000000000
+            Appearance.Height = 25.000000000000000000
+            Appearance.PlaceOffset.Y = 80.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'txtTitleRow'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 18.000000000000000000
+            Appearance.Font.StyleExt = {00070000000000000004000000}
+            Appearance.TextAlign = Leading
+            Appearance.TextVertAlign = Leading
+            Appearance.TextColor = claGreen
+            Appearance.Width = 100.000000000000000000
+            Appearance.Height = 25.000000000000000000
+            Appearance.PlaceOffset.X = 100.000000000000000000
+            Appearance.PlaceOffset.Y = 55.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'txtRow'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 18.000000000000000000
+            Appearance.TextAlign = Leading
+            Appearance.TextVertAlign = Leading
+            Appearance.Width = 100.000000000000000000
+            Appearance.Height = 25.000000000000000000
+            Appearance.PlaceOffset.X = 100.000000000000000000
+            Appearance.PlaceOffset.Y = 80.000000000000000000
+          end>
+        ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+          item
+            AppearanceObjectName = 'Text1'
+            AppearanceClassName = 'TTextObjectAppearance'
+          end>
+        OnItemClick = ListViewRegistrosItemClick
+        ShowSelection = False
+      end
+    end
+  end
+  object RectEstagio: TRectangle
+    Align = Center
+    Fill.Color = claWhite
+    Size.Width = 250.000000000000000000
+    Size.Height = 350.000000000000000000
+    Size.PlatformDefault = False
+    XRadius = 10.000000000000000000
+    YRadius = 10.000000000000000000
+    object Label1: TLabel
+      Align = Top
+      StyledSettings = [Family, Style, FontColor]
+      Size.Width = 250.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 'Est'#225'gio'
+      TabOrder = 0
+    end
+    object Rectangle8: TRectangle
+      Align = Top
+      Fill.Color = claWhite
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 30.000000000000000000
+      Size.Width = 240.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 10.000000000000000000
+      YRadius = 10.000000000000000000
+      object ComboBox7: TComboBox
+        Align = Client
+        Items.Strings = (
+          'R2'
+          'R5/R8'
+          'P'#243's')
+        ItemIndex = 0
+        Margins.Left = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Size.Width = 230.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'ComboBoxStyleTransparente'
+        TabOrder = 0
+      end
+    end
+    object btnEstagioOk: TButton
+      Align = Bottom
+      StyledSettings = [Family, Style, FontColor]
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 305.000000000000000000
+      Size.Width = 230.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'ButtonStyleGreen'
+      TabOrder = 2
+      Text = 'Pesquisar'
+      TextSettings.Font.Size = 18.000000000000000000
+      OnClick = btnEstagioOkClick
+    end
+    object layoutR2: TLayout
+      Align = Client
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 240.000000000000000000
+      Size.Height = 220.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      object CheckBoxR2Todos: TCheckBox
+        Align = Top
+        StyledSettings = [Family, Style, FontColor]
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 240.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        Text = 'TODOS'
+        TextSettings.Font.Size = 15.000000000000000000
+      end
+      object CheckBoxR2DESF: TCheckBox
+        Align = Top
+        StyledSettings = [Family, Style, FontColor]
+        Margins.Bottom = 5.000000000000000000
+        Position.Y = 96.000000000000000000
+        Size.Width = 240.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Text = 'CheckBoxR2DESF'
+        TextSettings.Font.Size = 15.000000000000000000
+      end
+      object CheckBoxR2AFL: TCheckBox
+        Align = Top
+        StyledSettings = [Family, Style, FontColor]
+        Margins.Bottom = 5.000000000000000000
+        Position.Y = 72.000000000000000000
+        Size.Width = 240.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = 'CheckBoxR2AFL'
+        TextSettings.Font.Size = 15.000000000000000000
+      end
+      object CheckBoxR2CFL: TCheckBox
+        Align = Top
+        StyledSettings = [Family, Style, FontColor]
+        Margins.Bottom = 5.000000000000000000
+        Position.Y = 48.000000000000000000
+        Size.Width = 240.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'CheckBoxR2CFL'
+        TextSettings.Font.Size = 15.000000000000000000
+      end
+      object CheckBoxR2DFL: TCheckBox
+        Align = Top
+        StyledSettings = [Family, Style, FontColor]
+        Margins.Bottom = 5.000000000000000000
+        Position.Y = 24.000000000000000000
+        Size.Width = 240.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'DFL'
+        TextSettings.Font.Size = 15.000000000000000000
+      end
+    end
+    object layoutPos: TLayout
+      Align = Client
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 240.000000000000000000
+      Size.Height = 220.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+      TabOrder = 4
+      object CheckBoxPosTodos: TCheckBox
+        Align = Top
+        StyledSettings = [Family, Style, FontColor]
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 240.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        Text = 'TODOS'
+        TextSettings.Font.Size = 15.000000000000000000
+      end
+      object CheckBoxPosHILO: TCheckBox
+        Align = Top
+        StyledSettings = [Family, Style, FontColor]
+        Margins.Bottom = 5.000000000000000000
+        Position.Y = 96.000000000000000000
+        Size.Width = 240.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Text = 'HILO'
+        TextSettings.Font.Size = 15.000000000000000000
+      end
+      object CheckBoxPosPS: TCheckBox
+        Align = Top
+        StyledSettings = [Family, Style, FontColor]
+        Margins.Bottom = 5.000000000000000000
+        Position.Y = 72.000000000000000000
+        Size.Width = 240.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = 'PS'
+        TextSettings.Font.Size = 15.000000000000000000
+      end
+      object CheckBoxPosUD: TCheckBox
+        Align = Top
+        StyledSettings = [Family, Style, FontColor]
+        Margins.Bottom = 5.000000000000000000
+        Position.Y = 48.000000000000000000
+        Size.Width = 240.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'UD'
+        TextSettings.Font.Size = 15.000000000000000000
+      end
+      object CheckBoxPosPROD: TCheckBox
+        Align = Top
+        StyledSettings = [Family, Style, FontColor]
+        Margins.Bottom = 5.000000000000000000
+        Position.Y = 24.000000000000000000
+        Size.Width = 240.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'PROD'
+        TextSettings.Font.Size = 15.000000000000000000
+      end
+    end
+    object layoutR5: TLayout
+      Align = Client
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 240.000000000000000000
+      Size.Height = 220.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+      TabOrder = 3
+      object Layout9: TLayout
+        Align = Left
+        Size.Width = 120.000000000000000000
+        Size.Height = 220.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object CheckBoxR5Todos: TCheckBox
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 8
+          Text = 'TODOS'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+        object CheckBoxR5FIT: TCheckBox
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Bottom = 5.000000000000000000
+          Position.Y = 48.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+          Text = 'FIT'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+        object CheckBoxR5MAL: TCheckBox
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Bottom = 5.000000000000000000
+          Position.Y = 96.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          Text = 'MAL'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+        object CheckBoxR5MIL: TCheckBox
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Bottom = 5.000000000000000000
+          Position.Y = 72.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'MIL'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+        object CheckBoxR5O: TCheckBox
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Bottom = 5.000000000000000000
+          Position.Y = 24.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'O'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+        object CheckBoxR5HC: TCheckBox
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Bottom = 5.000000000000000000
+          Position.Y = 192.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          Text = 'HC'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+        object CheckBoxR5RF: TCheckBox
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Bottom = 5.000000000000000000
+          Position.Y = 168.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          Text = 'RF'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+        object CheckBoxR5DFC: TCheckBox
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Bottom = 5.000000000000000000
+          Position.Y = 144.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'DFC'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+        object CheckBoxR5SMV: TCheckBox
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Bottom = 5.000000000000000000
+          Position.Y = 120.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'SMV'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+      end
+      object Layout10: TLayout
+        Align = Right
+        Position.X = 120.000000000000000000
+        Size.Width = 120.000000000000000000
+        Size.Height = 220.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object CheckBoxR5AC: TCheckBox
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 9
+          Text = 'AC'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+        object CheckBoxR5DM: TCheckBox
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Bottom = 5.000000000000000000
+          Position.Y = 24.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 8
+          Text = 'DM'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+        object CheckBoxR5CPUB: TCheckBox
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Bottom = 5.000000000000000000
+          Position.Y = 48.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+          Text = 'CPUB'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+        object CheckBoxR5ALTPL: TCheckBox
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Bottom = 5.000000000000000000
+          Position.Y = 72.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          Text = 'ALTPL'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+        object CheckBoxR5INS: TCheckBox
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Bottom = 5.000000000000000000
+          Position.Y = 96.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          Text = 'INS'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+        object CheckBoxR5VA: TCheckBox
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Bottom = 5.000000000000000000
+          Position.Y = 168.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          Text = 'VA'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+        object CheckBoxR5DE: TCheckBox
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Bottom = 5.000000000000000000
+          Position.Y = 144.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'DE'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+        object CheckBoxR5ST: TCheckBox
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Bottom = 5.000000000000000000
+          Position.Y = 120.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'ST'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+      end
+    end
+  end
+end

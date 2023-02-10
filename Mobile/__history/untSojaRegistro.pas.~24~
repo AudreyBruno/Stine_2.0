@@ -1,0 +1,182 @@
+unit untSojaRegistro;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Layouts, FMX.ListBox,
+  FMX.Memo.Types, FMX.ScrollBox, FMX.Memo;
+
+type
+  TfrmSojaRegistro = class(TForm)
+    layoutCabecalho: TLayout;
+    Label1: TLabel;
+    Image1: TImage;
+    Layout1: TLayout;
+    Layout2: TLayout;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Rectangle1: TRectangle;
+    Label5: TLabel;
+    Rectangle2: TRectangle;
+    Label6: TLabel;
+    Rectangle3: TRectangle;
+    Label7: TLabel;
+    Layout3: TLayout;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    Layout4: TLayout;
+    Rectangle4: TRectangle;
+    Label11: TLabel;
+    Rectangle5: TRectangle;
+    Label12: TLabel;
+    Rectangle6: TRectangle;
+    Label13: TLabel;
+    Label14: TLabel;
+    Rectangle7: TRectangle;
+    Label15: TLabel;
+    ListBoxRegistros: TListBox;
+    ListBoxItemCabecalho: TListBoxItem;
+    Layout5: TLayout;
+    Label16: TLabel;
+    Label17: TLabel;
+    Layout6: TLayout;
+    Rectangle8: TRectangle;
+    Label18: TLabel;
+    Rectangle10: TRectangle;
+    Label20: TLabel;
+    Layout8: TLayout;
+    Button3: TButton;
+    Button4: TButton;
+    Button1: TButton;
+    Image2: TImage;
+    Layout7: TLayout;
+    Label19: TLabel;
+    Label21: TLabel;
+    Layout9: TLayout;
+    Rectangle9: TRectangle;
+    Label22: TLabel;
+    Rectangle11: TRectangle;
+    Label23: TLabel;
+    Label24: TLabel;
+    Rectangle12: TRectangle;
+    Label25: TLabel;
+    ListBoxItemCabecalhoAdm: TListBoxItem;
+    Label26: TLabel;
+    Memo1: TMemo;
+    Rectangle13: TRectangle;
+    ListBoxItemR2Dfl: TListBoxItem;
+    ListBoxItemR2Cfl: TListBoxItem;
+    ListBoxItemR2Afl: TListBoxItem;
+    ListBoxItemR2Desf: TListBoxItem;
+    Label27: TLabel;
+    Rectangle14: TRectangle;
+    ComboBox4: TComboBox;
+    Label28: TLabel;
+    Rectangle15: TRectangle;
+    ComboBox1: TComboBox;
+    Label29: TLabel;
+    Rectangle16: TRectangle;
+    ComboBox2: TComboBox;
+    Label30: TLabel;
+    Rectangle17: TRectangle;
+    ComboBox3: TComboBox;
+    ListBoxItemPosProd: TListBoxItem;
+    ListBoxItemPosUd: TListBoxItem;
+    ListBoxItemPosPs: TListBoxItem;
+    ListBoxItemPosHilo: TListBoxItem;
+    Label31: TLabel;
+    Rectangle18: TRectangle;
+    ComboBox5: TComboBox;
+    Label32: TLabel;
+    Rectangle19: TRectangle;
+    ComboBox6: TComboBox;
+    Label33: TLabel;
+    Rectangle20: TRectangle;
+    ComboBox7: TComboBox;
+    Label34: TLabel;
+    Rectangle21: TRectangle;
+    ComboBox8: TComboBox;
+    ListBoxItemR5O: TListBoxItem;
+    ListBoxItemR5fit: TListBoxItem;
+    ListBoxItemR5Mil: TListBoxItem;
+    ListBoxItemR5Mal: TListBoxItem;
+    ListBoxItemR5Smv: TListBoxItem;
+    ListBoxItemR5Dfc: TListBoxItem;
+    ListBoxItemR5Rf: TListBoxItem;
+    ListBoxItemR5Hc: TListBoxItem;
+    ListBoxItemR5Ac: TListBoxItem;
+    ListBoxItemR5Dm: TListBoxItem;
+    ListBoxItemR5Cpub: TListBoxItem;
+    ListBoxItemR5Altpl: TListBoxItem;
+    ListBoxItemR5Ins: TListBoxItem;
+    ListBoxItemR5St: TListBoxItem;
+    ListBoxItemR5De: TListBoxItem;
+    Label35: TLabel;
+    Rectangle22: TRectangle;
+    ComboBox9: TComboBox;
+    Label36: TLabel;
+    Rectangle23: TRectangle;
+    ComboBox10: TComboBox;
+    Label37: TLabel;
+    Rectangle24: TRectangle;
+    ComboBox11: TComboBox;
+    Label38: TLabel;
+    Rectangle25: TRectangle;
+    ComboBox12: TComboBox;
+    Label39: TLabel;
+    Rectangle26: TRectangle;
+    ComboBox13: TComboBox;
+    Label40: TLabel;
+    Rectangle27: TRectangle;
+    ComboBox14: TComboBox;
+    Label41: TLabel;
+    Rectangle28: TRectangle;
+    ComboBox15: TComboBox;
+    Label42: TLabel;
+    Rectangle29: TRectangle;
+    ComboBox16: TComboBox;
+    Label43: TLabel;
+    Rectangle30: TRectangle;
+    ComboBox17: TComboBox;
+    Label44: TLabel;
+    Rectangle31: TRectangle;
+    ComboBox18: TComboBox;
+    Label45: TLabel;
+    Rectangle32: TRectangle;
+    ComboBox19: TComboBox;
+    Label46: TLabel;
+    Rectangle33: TRectangle;
+    ComboBox20: TComboBox;
+    Label47: TLabel;
+    Rectangle34: TRectangle;
+    ComboBox21: TComboBox;
+    Label48: TLabel;
+    Rectangle35: TRectangle;
+    ComboBox22: TComboBox;
+    Label49: TLabel;
+    Rectangle36: TRectangle;
+    ComboBox23: TComboBox;
+    ListBoxItemR5Va: TListBoxItem;
+    Label50: TLabel;
+    Rectangle37: TRectangle;
+    ComboBox24: TComboBox;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmSojaRegistro: TfrmSojaRegistro;
+
+implementation
+
+{$R *.fmx}
+
+uses untPrincipal;
+
+end.
