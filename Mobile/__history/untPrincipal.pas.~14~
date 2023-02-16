@@ -27,6 +27,7 @@ type
     Label10: TLabel;
     Label11: TLabel;
     StyleBook: TStyleBook;
+    procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -41,5 +42,14 @@ implementation
 {$R *.fmx}
 
 uses untSoja;
+
+procedure TfrmPrincipal.Button1Click(Sender: TObject);
+begin
+  if not Assigned(frmSoja) then
+    Application.CreateForm(TfrmSoja, frmSoja);
+
+  frmSoja.TabControlSoja.GotoVisibleTab(0);
+  frmSoja.Show;
+end;
 
 end.

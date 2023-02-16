@@ -1,20 +1,19 @@
-unit untPrincipal;
+unit untGravaFoto;
 
 interface
 
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
-  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Layouts,
-  FMX.Objects, FMX.Controls.Presentation, FMX.StdCtrls;
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Layouts;
 
 type
-  TForm1 = class(TForm)
+  TfrmGravaFoto = class(TForm)
     layoutCabecalho: TLayout;
     Label1: TLabel;
     Image1: TImage;
-    Rectangle1: TRectangle;
-    Layout1: TLayout;
-    Rectangle2: TRectangle;
+    Image2: TImage;
+    Image3: TImage;
   private
     { Private declarations }
   public
@@ -22,7 +21,7 @@ type
   end;
 
 var
-  Form1: TForm1;
+  frmGravaFoto: TfrmGravaFoto;
 
 implementation
 

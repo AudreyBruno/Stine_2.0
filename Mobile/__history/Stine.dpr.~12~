@@ -7,8 +7,7 @@ uses
   untPrincipal in 'untPrincipal.pas' {frmPrincipal},
   untSoja in 'untSoja.pas' {frmSoja},
   untSojaRegistro in 'untSojaRegistro.pas' {frmSojaRegistro},
-  untSinc in 'untSinc.pas' {frmSinc},
-  untGravaFoto in 'untGravaFoto.pas' {frmGravaFoto};
+  untSinc in 'untSinc.pas' {frmSinc};
 
 {$R *.res}
 
@@ -19,6 +18,5 @@ begin
   Application.CreateForm(TfrmSoja, frmSoja);
   Application.CreateForm(TfrmSojaRegistro, frmSojaRegistro);
   Application.CreateForm(TfrmSinc, frmSinc);
-  Application.CreateForm(TfrmGravaFoto, frmGravaFoto);
   Application.Run;
 end.
